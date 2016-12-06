@@ -10,3 +10,6 @@ The project was funded by California Energy Commission back in 2011.
 - Linyi Xia: Phase 2 hardware lead engineer, partially firmware and software visualization 
 - Liqiang Wang: Phase 2 visualization
 - Other members
+
+# Other useful links:
+- [ThingSpeak] (https://thingspeak.com/channels/19678)
