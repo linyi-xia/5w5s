@@ -1,0 +1,557 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/lester\/project\/libusbx\/missing --run aclocal-1.11$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AMTAR	Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AM_CFLAGS	Makefile	/^AM_CFLAGS =  -std=gnu99 -Wall -Wundef -Wunused -Wstrict-prototypes -Werror-implicit-function-declaration -Wno-pointer-sign -Wshadow -pthread -fvisibility=hidden$/;"	m
+AM_CPPFLAGS	Makefile	/^AM_CPPFLAGS = -I$(top_srcdir)\/libusb$/;"	m
+AM_DEFAULT_VERBOSITY	Makefile	/^AM_DEFAULT_VERBOSITY = 0$/;"	m
+AM_V_CC	Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
+AM_V_CCLD	Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m
+AM_V_GEN	Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_at	Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_lt	Makefile	/^AM_V_lt = $(am__v_lt_$(V))$/;"	m
+AR	Makefile	/^AR = ar$/;"	m
+ARRAYSIZE	fxload.c	47;"	d	file:
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/lester\/project\/libusbx\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/lester\/project\/libusbx\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/lester\/project\/libusbx\/missing --run automake-1.11$/;"	m
+AWK	Makefile	/^AWK = gawk$/;"	m
+B	xusb.c	69;"	d	file:
+BOMS_GET_MAX_LUN	xusb.c	90;"	d	file:
+BOMS_RESET	xusb.c	89;"	d	file:
+CALL_CHECK	xusb.c	68;"	d	file:
+CBWCB	xusb.c	/^	uint8_t CBWCB[16];$/;"	m	struct:command_block_wrapper	file:
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CTRL_IN	dpfp.c	34;"	d	file:
+CTRL_IN	dpfp_threaded.c	35;"	d	file:
+CTRL_OUT	dpfp.c	35;"	d	file:
+CTRL_OUT	dpfp_threaded.c	36;"	d	file:
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = dpfp.c dpfp_threaded.c $(fxload_SOURCES) hotplugtest.c \\$/;"	m
+DLLTOOL	Makefile	/^DLLTOOL = false$/;"	m
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	Makefile	/^DUMPBIN = $/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/usr\/bin\/grep -E$/;"	m
+ELIDE_CODE	getopt/getopt.c	56;"	d	file:
+ELIDE_CODE	getopt/getopt1.c	49;"	d	file:
+EP_DATA	dpfp.c	33;"	d	file:
+EP_DATA	dpfp_threaded.c	34;"	d	file:
+EP_DATA_IN	sam3u_benchmark.c	34;"	d	file:
+EP_INTR	dpfp.c	32;"	d	file:
+EP_INTR	dpfp_threaded.c	33;"	d	file:
+EP_ISO_IN	sam3u_benchmark.c	35;"	d	file:
+ERR_EXIT	xusb.c	67;"	d	file:
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+FGREP	Makefile	/^FGREP = \/usr\/bin\/grep -F$/;"	m
+FIRMWARE	fxload.c	79;"	d	file:
+FXLOAD_VERSION	fxload.c	43;"	d	file:
+FX_KNOWN_DEVICES	ezusb.h	73;"	d
+FX_TYPE_AN21	ezusb.h	42;"	d
+FX_TYPE_FX1	ezusb.h	43;"	d
+FX_TYPE_FX2	ezusb.h	44;"	d
+FX_TYPE_FX2LP	ezusb.h	45;"	d
+FX_TYPE_FX3	ezusb.h	46;"	d
+FX_TYPE_MAX	ezusb.h	47;"	d
+FX_TYPE_NAMES	ezusb.h	48;"	d
+FX_TYPE_UNDEFINED	ezusb.h	41;"	d
+GETOPT_INTERFACE_VERSION	getopt/getopt.c	52;"	d	file:
+GETOPT_INTERFACE_VERSION	getopt/getopt1.c	45;"	d	file:
+GREP	Makefile	/^GREP = \/usr\/bin\/grep$/;"	m
+HID_GET_IDLE	xusb.c	79;"	d	file:
+HID_GET_PROTOCOL	xusb.c	80;"	d	file:
+HID_GET_REPORT	xusb.c	78;"	d	file:
+HID_REPORT_TYPE_FEATURE	xusb.c	86;"	d	file:
+HID_REPORT_TYPE_INPUT	xusb.c	84;"	d	file:
+HID_REPORT_TYPE_OUTPUT	xusb.c	85;"	d	file:
+HID_SET_IDLE	xusb.c	82;"	d	file:
+HID_SET_PROTOCOL	xusb.c	83;"	d	file:
+HID_SET_REPORT	xusb.c	81;"	d	file:
+IMG_TYPE_BIX	ezusb.h	53;"	d
+IMG_TYPE_HEX	ezusb.h	51;"	d
+IMG_TYPE_IIC	ezusb.h	52;"	d
+IMG_TYPE_IMG	ezusb.h	54;"	d
+IMG_TYPE_MAX	ezusb.h	55;"	d
+IMG_TYPE_NAMES	ezusb.h	56;"	d
+IMG_TYPE_UNDEFINED	ezusb.h	50;"	d
+INQUIRY_LENGTH	xusb.c	74;"	d	file:
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INTR_LENGTH	dpfp.c	37;"	d	file:
+INTR_LENGTH	dpfp_threaded.c	38;"	d	file:
+LD	Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LDADD	Makefile	/^LDADD = ..\/libusb\/libusb-1.0.la$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = -lrt  -pthread$/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LINK	Makefile	/^LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LIPO	Makefile	/^LIPO = $/;"	m
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LOADER	fxload.c	80;"	d	file:
+LTCOMPILE	Makefile	/^LTCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LTLDFLAGS	Makefile	/^LTLDFLAGS = -version-info 1:0:1 -no-undefined$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+MAINT	Makefile	/^MAINT = #$/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/lester\/project\/libusbx\/missing --run makeinfo$/;"	m
+MANIFEST_TOOL	Makefile	/^MANIFEST_TOOL = :$/;"	m
+MAX_OS_FD_LENGTH	xusb.c	700;"	d	file:
+MKDIR_P	Makefile	/^MKDIR_P = \/usr\/bin\/mkdir -p$/;"	m
+MODE_AWAIT_FINGER_OFF	dpfp.c	/^	MODE_AWAIT_FINGER_OFF = 0x12,$/;"	e	enum:__anon5	file:
+MODE_AWAIT_FINGER_OFF	dpfp_threaded.c	/^	MODE_AWAIT_FINGER_OFF = 0x12,$/;"	e	enum:__anon3	file:
+MODE_AWAIT_FINGER_ON	dpfp.c	/^	MODE_AWAIT_FINGER_ON = 0x10,$/;"	e	enum:__anon5	file:
+MODE_AWAIT_FINGER_ON	dpfp_threaded.c	/^	MODE_AWAIT_FINGER_ON = 0x10,$/;"	e	enum:__anon3	file:
+MODE_CAPTURE	dpfp.c	/^	MODE_CAPTURE = 0x20,$/;"	e	enum:__anon5	file:
+MODE_CAPTURE	dpfp_threaded.c	/^	MODE_CAPTURE = 0x20,$/;"	e	enum:__anon3	file:
+MODE_INIT	dpfp.c	/^	MODE_INIT = 0x00,$/;"	e	enum:__anon5	file:
+MODE_INIT	dpfp_threaded.c	/^	MODE_INIT = 0x00,$/;"	e	enum:__anon3	file:
+MODE_READY	dpfp.c	/^	MODE_READY = 0x80,$/;"	e	enum:__anon5	file:
+MODE_READY	dpfp_threaded.c	/^	MODE_READY = 0x80,$/;"	e	enum:__anon3	file:
+MODE_SHUT_UP	dpfp.c	/^	MODE_SHUT_UP = 0x30,$/;"	e	enum:__anon5	file:
+MODE_SHUT_UP	dpfp_threaded.c	/^	MODE_SHUT_UP = 0x30,$/;"	e	enum:__anon3	file:
+NM	Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+NONOPTION_P	getopt/getopt.c	541;"	d	file:
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NULL	getopt/getopt1.c	63;"	d	file:
+OBJDUMP	Makefile	/^OBJDUMP = objdump$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OS_DARWIN	Makefile	/^OS_DARWIN = $/;"	m
+OS_LINUX	Makefile	/^OS_LINUX = $/;"	m
+OS_NETBSD	Makefile	/^OS_NETBSD = $/;"	m
+OS_OPENBSD	Makefile	/^OS_OPENBSD = $/;"	m
+OS_WINDOWS	Makefile	/^OS_WINDOWS = $/;"	m
+OTOOL	Makefile	/^OTOOL = $/;"	m
+OTOOL64	Makefile	/^OTOOL64 = $/;"	m
+PACKAGE	Makefile	/^PACKAGE = libusbx$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = libusbx-devel@lists.sourceforge.net$/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = libusbx$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = libusbx 1.0.17$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = libusbx$/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = http:\/\/libusbx.org$/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 1.0.17$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PERMUTE	getopt/getopt.c	/^  REQUIRE_ORDER, PERMUTE, RETURN_IN_ORDER$/;"	e	enum:__anon7	file:
+PID	xusb.c	/^static uint16_t VID, PID;$/;"	v	file:
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	Makefile	/^PROGRAMS = $(noinst_PROGRAMS)$/;"	m
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+RC	Makefile	/^RC = $/;"	m
+READ_CAPACITY_LENGTH	xusb.c	75;"	d	file:
+REQUEST_SENSE_LENGTH	xusb.c	73;"	d	file:
+REQUIRE_ORDER	getopt/getopt.c	/^  REQUIRE_ORDER, PERMUTE, RETURN_IN_ORDER$/;"	e	enum:__anon7	file:
+RETRY_LIMIT	ezusb.c	497;"	d	file:
+RETRY_MAX	xusb.c	72;"	d	file:
+RETURN_IN_ORDER	getopt/getopt.c	/^  REQUIRE_ORDER, PERMUTE, RETURN_IN_ORDER$/;"	e	enum:__anon7	file:
+RW_INTERNAL	ezusb.c	119;"	d	file:
+RW_MEMORY	ezusb.c	120;"	d	file:
+SED	Makefile	/^SED = \/usr\/bin\/sed$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SOURCES	Makefile	/^SOURCES = dpfp.c dpfp_threaded.c $(fxload_SOURCES) hotplugtest.c \\$/;"	m
+STATE_AWAIT_IMAGE	dpfp.c	/^	STATE_AWAIT_IMAGE,$/;"	e	enum:__anon6	file:
+STATE_AWAIT_IMAGE	dpfp_threaded.c	/^	STATE_AWAIT_IMAGE,$/;"	e	enum:__anon4	file:
+STATE_AWAIT_IRQ_FINGER_DETECTED	dpfp.c	/^	STATE_AWAIT_IRQ_FINGER_DETECTED,$/;"	e	enum:__anon6	file:
+STATE_AWAIT_IRQ_FINGER_DETECTED	dpfp_threaded.c	/^	STATE_AWAIT_IRQ_FINGER_DETECTED,$/;"	e	enum:__anon4	file:
+STATE_AWAIT_IRQ_FINGER_REMOVED	dpfp.c	/^	STATE_AWAIT_IRQ_FINGER_REMOVED,$/;"	e	enum:__anon6	file:
+STATE_AWAIT_IRQ_FINGER_REMOVED	dpfp_threaded.c	/^	STATE_AWAIT_IRQ_FINGER_REMOVED,$/;"	e	enum:__anon4	file:
+STATE_AWAIT_MODE_CHANGE_AWAIT_FINGER_OFF	dpfp.c	/^	STATE_AWAIT_MODE_CHANGE_AWAIT_FINGER_OFF,$/;"	e	enum:__anon6	file:
+STATE_AWAIT_MODE_CHANGE_AWAIT_FINGER_OFF	dpfp_threaded.c	/^	STATE_AWAIT_MODE_CHANGE_AWAIT_FINGER_OFF,$/;"	e	enum:__anon4	file:
+STATE_AWAIT_MODE_CHANGE_AWAIT_FINGER_ON	dpfp.c	/^	STATE_AWAIT_MODE_CHANGE_AWAIT_FINGER_ON = 1,$/;"	e	enum:__anon6	file:
+STATE_AWAIT_MODE_CHANGE_AWAIT_FINGER_ON	dpfp_threaded.c	/^	STATE_AWAIT_MODE_CHANGE_AWAIT_FINGER_ON = 1,$/;"	e	enum:__anon4	file:
+STATE_AWAIT_MODE_CHANGE_CAPTURE	dpfp.c	/^	STATE_AWAIT_MODE_CHANGE_CAPTURE,$/;"	e	enum:__anon6	file:
+STATE_AWAIT_MODE_CHANGE_CAPTURE	dpfp_threaded.c	/^	STATE_AWAIT_MODE_CHANGE_CAPTURE,$/;"	e	enum:__anon4	file:
+STRIP	Makefile	/^STRIP = strip$/;"	m
+SWAP_FLAGS	getopt/getopt.c	276;"	d	file:
+SWAP_FLAGS	getopt/getopt.c	284;"	d	file:
+SWAP_FLAGS	getopt/getopt.c	287;"	d	file:
+USB_RQ	dpfp.c	36;"	d	file:
+USB_RQ	dpfp_threaded.c	37;"	d	file:
+USE_GENERIC	xusb.c	/^	USE_GENERIC,$/;"	e	enum:test_type	file:
+USE_HID	xusb.c	/^	USE_HID,$/;"	e	enum:test_type	file:
+USE_PS3	xusb.c	/^	USE_PS3,$/;"	e	enum:test_type	file:
+USE_SCSI	xusb.c	/^	USE_SCSI,$/;"	e	enum:test_type	file:
+USE_UDEV	Makefile	/^USE_UDEV = $/;"	m
+USE_XBOX	xusb.c	/^	USE_XBOX,$/;"	e	enum:test_type	file:
+VERSION	Makefile	/^VERSION = 1.0.17$/;"	m
+VID	xusb.c	/^static uint16_t VID, PID;$/;"	v	file:
+_	getopt/getopt.c	84;"	d	file:
+_	getopt/getopt.c	87;"	d	file:
+_GETOPT_H	getopt/getopt.h	23;"	d
+_NO_PROTO	getopt/getopt.c	27;"	d	file:
+__attribute__	ezusb.h	26;"	d
+__ezusb_H	ezusb.h	2;"	d
+__getopt_initialized	getopt/getopt.c	/^int __getopt_initialized;$/;"	v
+__need_getopt	getopt/getopt.h	178;"	d
+_getopt_initialize	getopt/getopt.c	/^_getopt_initialize (argc, argv, optstring)$/;"	f	file:
+_getopt_internal	getopt/getopt.c	/^_getopt_internal (argc, argv, optstring, longopts, longind, long_only)$/;"	f
+_stricmp	fxload.c	39;"	d	file:
+_undef	ezusb.c	/^	_undef = 0,$/;"	e	enum:__anon1	file:
+abs_builddir	Makefile	/^abs_builddir = \/home\/lester\/project\/libusbx\/examples$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/lester\/project\/libusbx\/examples$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/lester\/project\/libusbx$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/lester\/project\/libusbx$/;"	m
+ac_ct_AR	Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_DUMPBIN	Makefile	/^ac_ct_DUMPBIN = $/;"	m
+alloc_transfers	dpfp.c	/^static int alloc_transfers(void)$/;"	f	file:
+alloc_transfers	dpfp_threaded.c	/^static int alloc_transfers(void)$/;"	f	file:
+am__EXEEXT_1	Makefile	/^am__EXEEXT_1 = dpfp$(EXEEXT)$/;"	m
+am__EXEEXT_2	Makefile	/^am__EXEEXT_2 = dpfp_threaded$(EXEEXT)$/;"	m
+am__EXEEXT_3	Makefile	/^am__EXEEXT_3 = sam3u_benchmark$(EXEEXT)$/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/libusb\/version.h \\$/;"	m
+am__append_1	Makefile	/^am__append_1 = dpfp$/;"	m
+am__append_2	Makefile	/^am__append_2 = dpfp_threaded$/;"	m
+am__append_3	Makefile	/^am__append_3 = sam3u_benchmark$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__sam3u_benchmark_SOURCES_DIST	Makefile	/^am__sam3u_benchmark_SOURCES_DIST = sam3u_benchmark.c$/;"	m
+am__tar	Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__untar	Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__v_CCLD_	Makefile	/^am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CCLD_0	Makefile	/^am__v_CCLD_0 = @echo "  CCLD  " $@;$/;"	m
+am__v_CC_	Makefile	/^am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CC_0	Makefile	/^am__v_CC_0 = @echo "  CC    " $@;$/;"	m
+am__v_GEN_	Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_0	Makefile	/^am__v_GEN_0 = @echo "  GEN   " $@;$/;"	m
+am__v_at_	Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_0	Makefile	/^am__v_at_0 = @$/;"	m
+am__v_lt_	Makefile	/^am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_lt_0	Makefile	/^am__v_lt_0 = --silent$/;"	m
+am_fxload_OBJECTS	Makefile	/^am_fxload_OBJECTS = fxload-ezusb.$(OBJEXT) fxload-fxload.$(OBJEXT)$/;"	m
+am_sam3u_benchmark_OBJECTS	Makefile	/^am_sam3u_benchmark_OBJECTS =  \\$/;"	m
+bCBWCBLength	xusb.c	/^	uint8_t bCBWCBLength;$/;"	m	struct:command_block_wrapper	file:
+bCBWLUN	xusb.c	/^	uint8_t bCBWLUN;$/;"	m	struct:command_block_wrapper	file:
+bCSWStatus	xusb.c	/^	uint8_t bCSWStatus;$/;"	m	struct:command_status_wrapper	file:
+be_to_int32	xusb.c	70;"	d	file:
+benchmark_in	sam3u_benchmark.c	/^static int benchmark_in(uint8_t ep)$/;"	f	file:
+binary_dump	xusb.c	/^static bool binary_dump = false;$/;"	v	file:
+binary_name	xusb.c	/^static const char* binary_name = NULL;$/;"	v	file:
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bmCBWFlags	xusb.c	/^	uint8_t bmCBWFlags;$/;"	m	struct:command_block_wrapper	file:
+bool	ezusb.h	28;"	d
+bool	xusb.c	37;"	d	file:
+build	Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = i686$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = pc$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+cb_img	dpfp.c	/^static void LIBUSB_CALL cb_img(struct libusb_transfer *transfer)$/;"	f	file:
+cb_img	dpfp_threaded.c	/^static void LIBUSB_CALL cb_img(struct libusb_transfer *transfer)$/;"	f	file:
+cb_irq	dpfp.c	/^static void LIBUSB_CALL cb_irq(struct libusb_transfer *transfer)$/;"	f	file:
+cb_irq	dpfp_threaded.c	/^static void LIBUSB_CALL cb_irq(struct libusb_transfer *transfer)$/;"	f	file:
+cb_mode_changed	dpfp.c	/^static void LIBUSB_CALL cb_mode_changed(struct libusb_transfer *transfer)$/;"	f	file:
+cb_mode_changed	dpfp_threaded.c	/^static void LIBUSB_CALL cb_mode_changed(struct libusb_transfer *transfer)$/;"	f	file:
+cb_xfr	sam3u_benchmark.c	/^static void LIBUSB_CALL cb_xfr(struct libusb_transfer *xfr)$/;"	f	file:
+cdb_length	xusb.c	/^static uint8_t cdb_length[256] = {$/;"	v	file:
+command_block_wrapper	xusb.c	/^struct command_block_wrapper {$/;"	s	file:
+command_status_wrapper	xusb.c	/^struct command_status_wrapper {$/;"	s	file:
+const	getopt/getopt.c	38;"	d	file:
+const	getopt/getopt1.c	31;"	d	file:
+count	ezusb.c	/^	size_t total, count;$/;"	m	struct:ram_poke_context	file:
+dCBWDataTransferLength	xusb.c	/^	uint32_t dCBWDataTransferLength;$/;"	m	struct:command_block_wrapper	file:
+dCBWSignature	xusb.c	/^	uint8_t dCBWSignature[4];$/;"	m	struct:command_block_wrapper	file:
+dCBWTag	xusb.c	/^	uint32_t dCBWTag;$/;"	m	struct:command_block_wrapper	file:
+dCSWDataResidue	xusb.c	/^	uint32_t dCSWDataResidue;$/;"	m	struct:command_status_wrapper	file:
+dCSWSignature	xusb.c	/^	uint8_t dCSWSignature[4];$/;"	m	struct:command_status_wrapper	file:
+dCSWTag	xusb.c	/^	uint32_t dCSWTag;$/;"	m	struct:command_status_wrapper	file:
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+designation	ezusb.h	/^	const char* designation;$/;"	m	struct:__anon2
+devh	dpfp.c	/^static struct libusb_device_handle *devh = NULL;$/;"	v	typeref:struct:libusb_device_handle	file:
+devh	dpfp_threaded.c	/^static struct libusb_device_handle *devh = NULL;$/;"	v	typeref:struct:libusb_device_handle	file:
+devh	sam3u_benchmark.c	/^static struct libusb_device_handle *devh = NULL;$/;"	v	typeref:struct:libusb_device_handle	file:
+device	ezusb.c	/^	libusb_device_handle *device;$/;"	m	struct:ram_poke_context	file:
+display_buffer_hex	xusb.c	/^static void display_buffer_hex(unsigned char *buffer, unsigned size)$/;"	f	file:
+display_ps3_status	xusb.c	/^static int display_ps3_status(libusb_device_handle *handle)$/;"	f	file:
+display_xbox_status	xusb.c	/^static int display_xbox_status(libusb_device_handle *handle)$/;"	f	file:
+do_exit	dpfp.c	/^static int do_exit = 0;$/;"	v	file:
+do_exit	dpfp_threaded.c	/^static int do_exit = 0;$/;"	v	file:
+do_exit	sam3u_benchmark.c	/^static int do_exit = 0;$/;"	v	file:
+do_init	dpfp.c	/^static int do_init(void)$/;"	f	file:
+do_init	dpfp_threaded.c	/^static int do_init(void)$/;"	f	file:
+do_sync_intr	dpfp.c	/^static int do_sync_intr(unsigned char *data)$/;"	f	file:
+do_sync_intr	dpfp_threaded.c	/^static int do_sync_intr(unsigned char *data)$/;"	f	file:
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+done	hotplugtest.c	/^int done = 0;$/;"	v
+dosyslog	fxload.c	/^static bool dosyslog = false;$/;"	v	file:
+dpfp_DEPENDENCIES	Makefile	/^dpfp_DEPENDENCIES = ..\/libusb\/libusb-1.0.la$/;"	m
+dpfp_LDADD	Makefile	/^dpfp_LDADD = $(LDADD)$/;"	m
+dpfp_OBJECTS	Makefile	/^dpfp_OBJECTS = dpfp.$(OBJEXT)$/;"	m
+dpfp_SOURCES	Makefile	/^dpfp_SOURCES = dpfp.c$/;"	m
+dpfp_threaded_CFLAGS	Makefile	/^dpfp_threaded_CFLAGS = $(AM_CFLAGS)$/;"	m
+dpfp_threaded_DEPENDENCIES	Makefile	/^dpfp_threaded_DEPENDENCIES = ..\/libusb\/libusb-1.0.la$/;"	m
+dpfp_threaded_LDADD	Makefile	/^dpfp_threaded_LDADD = $(LDADD)$/;"	m
+dpfp_threaded_LINK	Makefile	/^dpfp_threaded_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+dpfp_threaded_OBJECTS	Makefile	/^dpfp_threaded_OBJECTS = dpfp_threaded-dpfp_threaded.$(OBJEXT)$/;"	m
+dpfp_threaded_SOURCES	Makefile	/^dpfp_threaded_SOURCES = dpfp_threaded.c$/;"	m
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+exchange	getopt/getopt.c	/^exchange (argv)$/;"	f	file:
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+exit_cond	dpfp_threaded.c	/^static pthread_cond_t exit_cond = PTHREAD_COND_INITIALIZER;$/;"	v	file:
+exit_cond_lock	dpfp_threaded.c	/^static pthread_mutex_t exit_cond_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+extra_info	xusb.c	/^static bool extra_info = false;$/;"	v	file:
+ezusb_cpucs	ezusb.c	/^static bool ezusb_cpucs(libusb_device_handle *device, uint32_t addr, bool doRun)$/;"	f	file:
+ezusb_fx3_jump	ezusb.c	/^static bool ezusb_fx3_jump(libusb_device_handle *device, uint32_t addr)$/;"	f	file:
+ezusb_load_ram	ezusb.c	/^int ezusb_load_ram(libusb_device_handle *device, const char *path, int fx_type, int img_type, int stage)$/;"	f
+ezusb_read	ezusb.c	/^static int ezusb_read(libusb_device_handle *device, const char *label,$/;"	f	file:
+ezusb_write	ezusb.c	/^static int ezusb_write(libusb_device_handle *device, const char *label,$/;"	f	file:
+false	ezusb.h	34;"	d
+false	xusb.c	43;"	d	file:
+find_dpfp_device	dpfp.c	/^static int find_dpfp_device(void)$/;"	f	file:
+find_dpfp_device	dpfp_threaded.c	/^static int find_dpfp_device(void)$/;"	f	file:
+first_nonopt	getopt/getopt.c	/^static int first_nonopt;$/;"	v	file:
+flag	getopt/getopt.h	/^  int *flag;$/;"	m	struct:option
+func_exec_program	dpfp	/^func_exec_program ()$/;"	f
+func_exec_program	dpfp_threaded	/^func_exec_program ()$/;"	f
+func_exec_program	fxload	/^func_exec_program ()$/;"	f
+func_exec_program	hotplugtest	/^func_exec_program ()$/;"	f
+func_exec_program	listdevs	/^func_exec_program ()$/;"	f
+func_exec_program	sam3u_benchmark	/^func_exec_program ()$/;"	f
+func_exec_program	xusb	/^func_exec_program ()$/;"	f
+func_exec_program_core	dpfp	/^func_exec_program_core ()$/;"	f
+func_exec_program_core	dpfp_threaded	/^func_exec_program_core ()$/;"	f
+func_exec_program_core	fxload	/^func_exec_program_core ()$/;"	f
+func_exec_program_core	hotplugtest	/^func_exec_program_core ()$/;"	f
+func_exec_program_core	listdevs	/^func_exec_program_core ()$/;"	f
+func_exec_program_core	sam3u_benchmark	/^func_exec_program_core ()$/;"	f
+func_exec_program_core	xusb	/^func_exec_program_core ()$/;"	f
+func_fallback_echo	dpfp	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	dpfp_threaded	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	fxload	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	hotplugtest	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	listdevs	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	sam3u_benchmark	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	xusb	/^func_fallback_echo ()$/;"	f
+func_lt_dump_args	dpfp	/^func_lt_dump_args ()$/;"	f
+func_lt_dump_args	dpfp_threaded	/^func_lt_dump_args ()$/;"	f
+func_lt_dump_args	fxload	/^func_lt_dump_args ()$/;"	f
+func_lt_dump_args	hotplugtest	/^func_lt_dump_args ()$/;"	f
+func_lt_dump_args	listdevs	/^func_lt_dump_args ()$/;"	f
+func_lt_dump_args	sam3u_benchmark	/^func_lt_dump_args ()$/;"	f
+func_lt_dump_args	xusb	/^func_lt_dump_args ()$/;"	f
+func_parse_lt_options	dpfp	/^func_parse_lt_options ()$/;"	f
+func_parse_lt_options	dpfp_threaded	/^func_parse_lt_options ()$/;"	f
+func_parse_lt_options	fxload	/^func_parse_lt_options ()$/;"	f
+func_parse_lt_options	hotplugtest	/^func_parse_lt_options ()$/;"	f
+func_parse_lt_options	listdevs	/^func_parse_lt_options ()$/;"	f
+func_parse_lt_options	sam3u_benchmark	/^func_parse_lt_options ()$/;"	f
+func_parse_lt_options	xusb	/^func_parse_lt_options ()$/;"	f
+fx2_is_external	ezusb.c	/^static bool fx2_is_external(uint32_t addr, size_t len)$/;"	f	file:
+fx2lp_is_external	ezusb.c	/^static bool fx2lp_is_external(uint32_t addr, size_t len)$/;"	f	file:
+fx3_load_ram	ezusb.c	/^static int fx3_load_ram(libusb_device_handle *device, const char *path)$/;"	f	file:
+fx_is_external	ezusb.c	/^static bool fx_is_external(uint32_t addr, size_t len)$/;"	f	file:
+fx_known_device	ezusb.h	/^} fx_known_device;$/;"	t	typeref:struct:__anon2
+fxload_CFLAGS	Makefile	/^fxload_CFLAGS = $(THREAD_CFLAGS) $(AM_CFLAGS)$/;"	m
+fxload_DEPENDENCIES	Makefile	/^fxload_DEPENDENCIES = ..\/libusb\/libusb-1.0.la$/;"	m
+fxload_LDADD	Makefile	/^fxload_LDADD = $(LDADD)$/;"	m
+fxload_LINK	Makefile	/^fxload_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+fxload_OBJECTS	Makefile	/^fxload_OBJECTS = $(am_fxload_OBJECTS)$/;"	m
+fxload_SOURCES	Makefile	/^fxload_SOURCES = ezusb.c ezusb.h fxload.c$/;"	m
+get_hid_record_size	xusb.c	/^static int get_hid_record_size(uint8_t *hid_report_descriptor, int size, int type)$/;"	f	file:
+get_hwstat	dpfp.c	/^static int get_hwstat(unsigned char *status)$/;"	f	file:
+get_hwstat	dpfp_threaded.c	/^static int get_hwstat(unsigned char *status)$/;"	f	file:
+get_mass_storage_status	xusb.c	/^static int get_mass_storage_status(libusb_device_handle *handle, uint8_t endpoint, uint32_t expected_tag)$/;"	f	file:
+get_sense	xusb.c	/^static void get_sense(libusb_device_handle *handle, uint8_t endpoint_in, uint8_t endpoint_out)$/;"	f	file:
+getopt	getopt/getopt.c	/^getopt (argc, argv, optstring)$/;"	f
+getopt_long	getopt/getopt1.c	/^getopt_long (argc, argv, options, long_options, opt_index)$/;"	f
+getopt_long_only	getopt/getopt1.c	/^getopt_long_only (argc, argv, options, long_options, opt_index)$/;"	f
+handle	hotplugtest.c	/^libusb_device_handle *handle;$/;"	v
+has_arg	getopt/getopt.h	/^  int has_arg;$/;"	m	struct:option
+host	Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = i686$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = pc$/;"	m
+hotplug_callback	hotplugtest.c	/^static int LIBUSB_CALL hotplug_callback(libusb_context *ctx, libusb_device *dev, libusb_hotplug_event event, void *user_data)$/;"	f	file:
+hotplug_callback_detach	hotplugtest.c	/^static int LIBUSB_CALL hotplug_callback_detach(libusb_context *ctx, libusb_device *dev, libusb_hotplug_event event, void *user_data)$/;"	f	file:
+hotplugtest_DEPENDENCIES	Makefile	/^hotplugtest_DEPENDENCIES = ..\/libusb\/libusb-1.0.la$/;"	m
+hotplugtest_LDADD	Makefile	/^hotplugtest_LDADD = $(LDADD)$/;"	m
+hotplugtest_OBJECTS	Makefile	/^hotplugtest_OBJECTS = hotplugtest.$(OBJEXT)$/;"	m
+hotplugtest_SOURCES	Makefile	/^hotplugtest_SOURCES = hotplugtest.c$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+img_idx	dpfp.c	/^static int img_idx = 0;$/;"	v	file:
+img_idx	dpfp_threaded.c	/^static int img_idx = 0;$/;"	v	file:
+img_transfer	dpfp.c	/^static struct libusb_transfer *img_transfer = NULL;$/;"	v	typeref:struct:libusb_transfer	file:
+img_transfer	dpfp_threaded.c	/^static struct libusb_transfer *img_transfer = NULL;$/;"	v	typeref:struct:libusb_transfer	file:
+imgbuf	dpfp.c	/^static unsigned char imgbuf[0x1b340];$/;"	v	file:
+imgbuf	dpfp_threaded.c	/^static unsigned char imgbuf[0x1b340];$/;"	v	file:
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+init_capture	dpfp.c	/^static int init_capture(void)$/;"	f	file:
+init_capture	dpfp_threaded.c	/^static int init_capture(void)$/;"	f	file:
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/lester\/project\/libusbx\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+internal_only	ezusb.c	/^	internal_only,		\/* hardware first-stage loader *\/$/;"	e	enum:__anon1	file:
+irq_transfer	dpfp.c	/^static struct libusb_transfer *irq_transfer = NULL;$/;"	v	typeref:struct:libusb_transfer	file:
+irq_transfer	dpfp_threaded.c	/^static struct libusb_transfer *irq_transfer = NULL;$/;"	v	typeref:struct:libusb_transfer	file:
+irqbuf	dpfp.c	/^static unsigned char irqbuf[INTR_LENGTH];$/;"	v	file:
+irqbuf	dpfp_threaded.c	/^static unsigned char irqbuf[INTR_LENGTH];$/;"	v	file:
+last_nonopt	getopt/getopt.c	/^static int last_nonopt;$/;"	v	file:
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+listdevs_DEPENDENCIES	Makefile	/^listdevs_DEPENDENCIES = ..\/libusb\/libusb-1.0.la$/;"	m
+listdevs_LDADD	Makefile	/^listdevs_LDADD = $(LDADD)$/;"	m
+listdevs_OBJECTS	Makefile	/^listdevs_OBJECTS = listdevs.$(OBJEXT)$/;"	m
+listdevs_SOURCES	Makefile	/^listdevs_SOURCES = listdevs.c$/;"	m
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+logerror	fxload.c	/^void logerror(const char *format, ...)$/;"	f
+main	dpfp.c	/^int main(void)$/;"	f
+main	dpfp_threaded.c	/^int main(void)$/;"	f
+main	fxload.c	/^int main(int argc, char*argv[])$/;"	f
+main	getopt/getopt.c	/^main (argc, argv)$/;"	f
+main	getopt/getopt1.c	/^main (argc, argv)$/;"	f
+main	hotplugtest.c	/^int main(int argc, char *argv[])$/;"	f
+main	listdevs.c	/^int main(void)$/;"	f
+main	sam3u_benchmark.c	/^int main(int argc, char **argv)$/;"	f
+main	xusb.c	/^int main(int argc, char** argv)$/;"	f
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+measure	sam3u_benchmark.c	/^static void measure(void)$/;"	f	file:
+mkdir_p	Makefile	/^mkdir_p = \/usr\/bin\/mkdir -p$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mode	ezusb.c	/^	ram_mode mode;$/;"	m	struct:ram_poke_context	file:
+msleep	xusb.c	30;"	d	file:
+msleep	xusb.c	33;"	d	file:
+my_index	getopt/getopt.c	/^my_index (str, chr)$/;"	f	file:
+my_index	getopt/getopt.c	199;"	d	file:
+name	getopt/getopt.h	/^  const char *name;$/;"	m	struct:option
+next_state	dpfp.c	/^static int next_state(void)$/;"	f	file:
+next_state	dpfp_threaded.c	/^static int next_state(void)$/;"	f	file:
+nextchar	getopt/getopt.c	/^static char *nextchar;$/;"	v	file:
+no_argument	getopt/getopt.h	110;"	d
+noinst_PROGRAMS	Makefile	/^noinst_PROGRAMS = listdevs$(EXEEXT) xusb$(EXEEXT) fxload$(EXEEXT) \\$/;"	m
+nonoption_flags_len	getopt/getopt.c	/^static int nonoption_flags_len;$/;"	v	file:
+nonoption_flags_max_len	getopt/getopt.c	/^static int nonoption_flags_max_len;$/;"	v	file:
+num_bytes	sam3u_benchmark.c	/^static unsigned long num_bytes = 0, num_xfer = 0;$/;"	v	file:
+num_xfer	sam3u_benchmark.c	/^static unsigned long num_bytes = 0, num_xfer = 0;$/;"	v	file:
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+optarg	getopt/getopt.c	/^char *optarg;$/;"	v
+opterr	getopt/getopt.c	/^int opterr = 1;$/;"	v
+optind	getopt/getopt.c	/^int optind = 1;$/;"	v
+option	getopt/getopt.h	/^struct option$/;"	s
+optional_argument	getopt/getopt.h	112;"	d
+optopt	getopt/getopt.c	/^int optopt = '?';$/;"	v
+ordering	getopt/getopt.c	/^} ordering;$/;"	v	typeref:enum:__anon7	file:
+parse	ezusb.c	/^static int (*parse[IMG_TYPE_MAX])(FILE *image, void *context, bool (*is_external)(uint32_t addr, size_t len),$/;"	v	file:
+parse_bin	ezusb.c	/^static int parse_bin(FILE *image, void *context,$/;"	f	file:
+parse_ihex	ezusb.c	/^static int parse_ihex(FILE *image, void *context,$/;"	f	file:
+parse_iic	ezusb.c	/^static int parse_iic(FILE *image, void *context,$/;"	f	file:
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+perr	xusb.c	/^static int perr(char const *format, ...)$/;"	f	file:
+pid	ezusb.h	/^	uint16_t pid;$/;"	m	struct:__anon2
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/libusbx$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/libusbx$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/libusbx$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/libusbx$/;"	m
+poll_thread	dpfp_threaded.c	/^static pthread_t poll_thread;$/;"	v	file:
+poll_thread_main	dpfp_threaded.c	/^static void *poll_thread_main(void *arg)$/;"	f	file:
+posixly_correct	getopt/getopt.c	/^static char *posixly_correct;$/;"	v	file:
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+print_device_cap	xusb.c	/^static void print_device_cap(struct libusb_bos_dev_capability_descriptor *dev_cap)$/;"	f	file:
+print_devs	listdevs.c	/^static void print_devs(libusb_device **devs)$/;"	f	file:
+print_f0_data	dpfp.c	/^static int print_f0_data(void)$/;"	f	file:
+print_f0_data	dpfp_threaded.c	/^static int print_f0_data(void)$/;"	f	file:
+print_usage	fxload.c	/^static int print_usage(int error_code) {$/;"	f	file:
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+ram_mode	ezusb.c	/^} ram_mode;$/;"	t	typeref:enum:__anon1	file:
+ram_poke	ezusb.c	/^static int ram_poke(void *context, uint32_t addr, bool external,$/;"	f	file:
+ram_poke_context	ezusb.c	/^struct ram_poke_context {$/;"	s	file:
+read_ms_winsub_feature_descriptors	xusb.c	/^static void read_ms_winsub_feature_descriptors(libusb_device_handle *handle, uint8_t bRequest, int iface_number)$/;"	f	file:
+request_exit	dpfp_threaded.c	/^static void request_exit(int code)$/;"	f	file:
+required_argument	getopt/getopt.h	111;"	d
+sam3u_benchmark_DEPENDENCIES	Makefile	/^sam3u_benchmark_DEPENDENCIES = ..\/libusb\/libusb-1.0.la$/;"	m
+sam3u_benchmark_LDADD	Makefile	/^sam3u_benchmark_LDADD = $(LDADD)$/;"	m
+sam3u_benchmark_OBJECTS	Makefile	/^sam3u_benchmark_OBJECTS = $(am_sam3u_benchmark_OBJECTS)$/;"	m
+sam3u_benchmark_SOURCES	Makefile	/^sam3u_benchmark_SOURCES = sam3u_benchmark.c$/;"	m
+save_to_file	dpfp.c	/^static int save_to_file(unsigned char *data)$/;"	f	file:
+save_to_file	dpfp_threaded.c	/^static int save_to_file(unsigned char *data)$/;"	f	file:
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+send_mass_storage_command	xusb.c	/^static int send_mass_storage_command(libusb_device_handle *handle, uint8_t endpoint, uint8_t lun,$/;"	f	file:
+set_hwstat	dpfp.c	/^static int set_hwstat(unsigned char data)$/;"	f	file:
+set_hwstat	dpfp_threaded.c	/^static int set_hwstat(unsigned char data)$/;"	f	file:
+set_mode	dpfp.c	/^static int set_mode(unsigned char data)$/;"	f	file:
+set_mode	dpfp_threaded.c	/^static int set_mode(unsigned char data)$/;"	f	file:
+set_mode_async	dpfp.c	/^static int set_mode_async(unsigned char data)$/;"	f	file:
+set_mode_async	dpfp_threaded.c	/^static int set_mode_async(unsigned char data)$/;"	f	file:
+set_xbox_actuators	xusb.c	/^static int set_xbox_actuators(libusb_device_handle *handle, uint8_t left, uint8_t right)$/;"	f	file:
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sig_hdlr	sam3u_benchmark.c	/^static void sig_hdlr(int signum)$/;"	f	file:
+sighandler	dpfp.c	/^static void sighandler(int signum)$/;"	f	file:
+sighandler	dpfp_threaded.c	/^static void sighandler(int signum)$/;"	f	file:
+skip_external	ezusb.c	/^	skip_external		\/* second phase, second-stage loader *\/$/;"	e	enum:__anon1	file:
+skip_internal	ezusb.c	/^	skip_internal,		\/* first phase, second-stage loader *\/$/;"	e	enum:__anon1	file:
+srcdir	Makefile	/^srcdir = .$/;"	m
+state	dpfp.c	/^static int state = 0;$/;"	v	file:
+state	dpfp_threaded.c	/^static int state = 0;$/;"	v	file:
+subdir	Makefile	/^subdir = examples$/;"	m
+sync_intr	dpfp.c	/^static int sync_intr(unsigned char type)$/;"	f	file:
+sync_intr	dpfp_threaded.c	/^static int sync_intr(unsigned char type)$/;"	f	file:
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+test_device	xusb.c	/^static int test_device(uint16_t vid, uint16_t pid)$/;"	f	file:
+test_hid	xusb.c	/^static int test_hid(libusb_device_handle *handle, uint8_t endpoint_in)$/;"	f	file:
+test_mass_storage	xusb.c	/^static int test_mass_storage(libusb_device_handle *handle, uint8_t endpoint_in, uint8_t endpoint_out)$/;"	f	file:
+test_mode	xusb.c	/^} test_mode;$/;"	v	typeref:enum:test_type	file:
+test_type	xusb.c	/^static enum test_type {$/;"	g	file:
+top_build_prefix	Makefile	/^top_build_prefix = ..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = ..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..$/;"	m
+total	ezusb.c	/^	size_t total, count;$/;"	m	struct:ram_poke_context	file:
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+true	ezusb.h	31;"	d
+true	xusb.c	40;"	d	file:
+tv_start	sam3u_benchmark.c	/^static struct timeval tv_start;$/;"	v	typeref:struct:timeval	file:
+type	ezusb.h	/^	int type;$/;"	m	struct:__anon2
+usb_interface	xusb.c	48;"	d	file:
+uuid_to_string	xusb.c	/^static char* uuid_to_string(const uint8_t* uuid)$/;"	f	file:
+val	getopt/getopt.h	/^  int val;$/;"	m	struct:option
+verbose	ezusb.c	/^int verbose = 1;$/;"	v
+vid	ezusb.h	/^	uint16_t vid;$/;"	m	struct:__anon2
+xusb_DEPENDENCIES	Makefile	/^xusb_DEPENDENCIES = ..\/libusb\/libusb-1.0.la$/;"	m
+xusb_LDADD	Makefile	/^xusb_LDADD = $(LDADD)$/;"	m
+xusb_OBJECTS	Makefile	/^xusb_OBJECTS = xusb.$(OBJEXT)$/;"	m
+xusb_SOURCES	Makefile	/^xusb_SOURCES = xusb.c$/;"	m
