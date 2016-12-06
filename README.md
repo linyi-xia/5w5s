@@ -1,5 +1,7 @@
 # 5 Watt 5 Seconds (5W5S)
 The project was funded by California Energy Commission back in 2011. 
+- Phase 1
+- Phase 2
 
 # Project Team under project PI Prof. G.P. Li:
 - Dr. Jieping Guo: Project lead
